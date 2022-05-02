@@ -48,6 +48,22 @@ a:hover {
     padding: 100px 50px;
 }
 
+#bloc_form {
+    padding: 50px 0 !important;
+}
+
+#form_1 > *{
+    margin: 15px 0;
+}
+
+#form_1 input {
+    margin-left: 15px;
+}
+
+#message {
+    margin-top: 10px;
+}
+
 .bloc-md {
     padding: 50px;
 }
@@ -331,6 +347,9 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-right: 3rem;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -371,7 +390,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 10%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -778,11 +797,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #636363;
 }
 
 .tc-white {
     color: #F3976C!important;
+}
+
+#contact_text {
+    margin: 0!important;
 }
 
 .btn-atomic-tangerine {
